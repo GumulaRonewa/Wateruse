@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/shor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/shower" />
+
+                <TextView
+                    android:id="@+id/body"
+                    android:layout_width="190dp"
+                    android:layout_height="66dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/body"
+                    android:textColor="#FFFFFF"
+                    android:textSize="21sp" />
+
+                <EditText
+                    android:id="@+id/bath"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="28dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="324dp"
+                android:layout_height="106dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/la"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/laundry" />
+
+                <TextView
+                    android:id="@+id/laundry"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/laundry"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/laundry_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/laundry"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cleaning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cleaning" />
+
+                <TextView
+                    android:id="@+id/clean"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/clean"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/clean_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginTop="17dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/dish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/dish" />
+
+                <TextView
+                    android:id="@+id/wash"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/dish"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/dish_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/wash"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/toilet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/toilet" />
+
+                <TextView
+                    android:id="@+id/T"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/toilet"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/toilet_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/water"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/drinking" />
+
+                <TextView
+                    android:id="@+id/drink"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/drink"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/drink_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/drink"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/hy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/soap" />
+
+                <TextView
+                    android:id="@+id/soap"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hy"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/hy_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/soap"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/pot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pot" />
+
+                <TextView
+                    android:id="@+id/cook"
+                    android:layout_width="190dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/cook"
+                    android:textColor="#FFFFFF"
+                    android:textSize="23sp" />
+
+                <EditText
+                    android:id="@+id/cook_input"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/cook"
+                    android:layout_marginEnd="25dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="number" />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+          >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#FFFFFF"
+
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/total_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="39dp"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="16dp"
+                    android:onClick="click"
+                    android:text="@string/t" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBaseline="@+id/total_button"
+                    android:layout_alignBottom="@+id/total_button"
+                    android:layout_marginEnd="23dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_toLeftOf="@+id/num"
+                    android:layout_toStartOf="@+id/num"
+                    android:text="@string/total"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/total"
+                    android:layout_alignBottom="@+id/total"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="0"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/total"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="14dp"
+                    android:hint="YYYY/MM/DD"
+                    android:ems="10"
+                    android:inputType="date" />
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="70dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/date"
+                    android:layout_toLeftOf="@+id/num"
+                    android:layout_toStartOf="@+id/num"
+                    android:background="@drawable/images"
+                    android:onClick="onClick"
+                    android:text="" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

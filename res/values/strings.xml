@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WaterUse</string>
+    <string name="body">Body Washing</string>
+    <string name="laundry">Laundry</string>
+    <string name="load">Load</string>
+    <string name="clean">Cleaning</string>
+    <string name="dish">Dish Washing</string>
+    <string name="toilet">Toilet</string>
+    <string name="drink">Drinking</string>
+    <string name="cook">Cooking</string>
+    <string name="hy">Hygiene</string>
+    <string name="total">Total:</string>
+    <string name="init">: -</string>
+    <string name="calc">Calculator</string>
+    <string name="diary">Diary</string>
+    <string name="ov">Main</string>
+    <string name="date">Date</string>
+    <string name="day">YYYYMMDD</string>
+    <string name="N"></string>
+    <string name="t">Total</string>
+</resources>
